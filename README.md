@@ -15,4 +15,4 @@ Connections:
 
 Code:
 - Control code for the system was written in C. The rotary position sensor is used to determine the wind direction. Based on the wind direction, the optimal sail position is   calculated. A pulse length corresponding the optimal sail position is sent to the servo, which positions the sail accordingly. 
-- The file auto_sail_trim_control_commented.c contains detailed comments explaining the calculations and sail position. The file auto_sail_trim_control has the same code but with minimal comments. 
+- The file auto_sail_trim_control_commented.c contains detailed comments explaining the calculations and sail position. The file auto_sail_trim.c has the same code but with minimal comments. 
