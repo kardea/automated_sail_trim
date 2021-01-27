@@ -17,3 +17,5 @@ Code:
 - Control code for the system was written in C. The rotary position sensor is used to determine the wind direction. Based on the wind direction, the optimal sail position is   calculated. A pulse length corresponding the optimal sail position is sent to the servo, which positions the sail accordingly. 
 - The file auto_sail_trim_control_commented.c contains detailed comments explaining the calculations and sail position. The file auto_sail_trim.c has the same code but with minimal comments. 
 - The file msp430.h is the header file that goes with the TI MSP430 microcontroller.
+
+A more verbose description and circuit diagram can be seen in the automated_sail_trim pdf in this repo.
